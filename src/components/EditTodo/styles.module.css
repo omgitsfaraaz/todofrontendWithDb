@@ -1,0 +1,36 @@
+.mainDiv {
+    background-color: white;
+    position: fixed;
+    width: 95%;
+    height: 20%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    bottom: 0;
+    padding: 10px;
+    box-shadow: 2px -7px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px -7px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px -7px 5px 0px rgba(0,0,0,0.75);
+}
+
+.modalHead {
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 1200px) {
+    .mainDiv {
+        background-color: white;
+        position: fixed;
+        width: 50%;
+        height: 20%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        bottom: 0;
+        padding: 10px;
+        box-shadow: 2px -7px 5px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 2px -7px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 2px -7px 5px 0px rgba(0,0,0,0.75);
+        left: 25%
+    }
+}
